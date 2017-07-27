@@ -1,0 +1,7 @@
+base_dir: /home/oliver/academic/research/droplet/gen_droplet
+material_name: /home/oliver/academic/research/droplet/gen_droplet/materials/mica15_single_layer
+forcefield: /home/oliver/academic/research/droplet/gen_droplet/forcefields/cvff.frc
+class_number: 1
+verbosity: 1
+ignore_errors: true
+outdir: /home/oliver/academic/research/droplet/gen_droplet/cwl/out

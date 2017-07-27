@@ -1,0 +1,27 @@
+/home/oliver/local/miniconda3/envs/py2/bin/cwltool 1.0.20170723124118
+Resolved 'msi2lmp.cwl' to 'file:///home/oliver/academic/research/droplet/gen_droplet/cwl/msi2lmp.cwl'
+[job msi2lmp.cwl] /tmp/tmpyr3Pcr$ /home/oliver/academic/research/droplet/gen_droplet/scripts/msi2lmp.exe \
+    /home/oliver/academic/research/droplet/gen_droplet/materials/mica15_single_layer \
+    -class \
+    1 \
+    -print \
+    1 \
+    -frc \
+    /home/oliver/academic/research/droplet/gen_droplet/forcefields/cvff.frc \
+    -i
+
+Running msi2lmp v3.9.8 / 06 Oct 2016
+
+ Forcefield: Class I
+ Forcefield file name: /home/oliver/academic/research/droplet/gen_droplet/forcefields/cvff.frc
+ Output is recentered around geometrical center
+ Output contains style flag hints
+ System translated by: 0 0 0
+ Reading car file: /home/oliver/academic/research/droplet/gen_droplet/materials/mica15_single_layer.car
+ Reading mdf file: /home/oliver/academic/research/droplet/gen_droplet/materials/mica15_single_layer.mdf
+Names A1 from .car file and SI1 from .mdf file do not match
+counter = 1
+Program Terminating
+[job msi2lmp.cwl] completed permanentFail
+{}
+Final process status is permanentFail
