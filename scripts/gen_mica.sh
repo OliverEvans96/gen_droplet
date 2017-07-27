@@ -59,7 +59,7 @@ python ../scripts/lattice.py "$nx" "$ny" "$nz" "${COORDS}.car" "${name}.lammps05
 echo
 echo "Delete temporary files"
 echo rm -f "${name}.lammps05" "${COORDS}.car"
-rm -f "struct.lammps05" "${COORDS}.car"
+rm -f "${name}.lammps05" "${COORDS}.car"
 
 echo
 echo "Generated '${DATAFILE}'"
